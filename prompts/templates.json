@@ -1,0 +1,14 @@
+{
+  "classificacao_sentimento": {
+    "contexto": "Voce analisa avaliacoes de clientes em uma loja online brasileira.",
+    "instrucao_base": "Classifique o sentimento da avaliacao como POSITIVO, NEGATIVO, NEUTRO ou MISTO."
+  },
+  "extracao_dados": {
+    "contexto": "Voce extrai informacoes estruturadas de textos de avaliacoes e reclamacoes.",
+    "instrucao_base": "Extraia produto, preco e defeito mencionados no texto."
+  },
+  "sumarizacao_avaliacao": {
+    "contexto": "Voce resume avaliacoes longas de clientes para o time de produto.",
+    "instrucao_base": "Gere um resumo executivo em ate 3 bullet points com os pontos principais."
+  }
+}

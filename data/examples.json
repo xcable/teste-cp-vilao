@@ -1,0 +1,23 @@
+{
+  "classificacao_sentimento": [
+    {"input": "Adorei o produto, superou minhas expectativas!", "output": "POSITIVO"},
+    {"input": "Veio com defeito e o suporte nao resolveu.", "output": "NEGATIVO"},
+    {"input": "Entrega rapida, mas a embalagem veio amassada.", "output": "MISTO"}
+  ],
+  "extracao_dados": [
+    {
+      "input": "Comprei um fone JBL por R$299 e parou de funcionar em 2 dias.",
+      "output": "{\"produto\": \"fone JBL\", \"preco\": \"R$299\", \"defeito\": \"parou de funcionar em 2 dias\"}"
+    },
+    {
+      "input": "Smartphone Samsung Galaxy por R$1899 com tela trincada na entrega.",
+      "output": "{\"produto\": \"Smartphone Samsung Galaxy\", \"preco\": \"R$1899\", \"defeito\": \"tela trincada na entrega\"}"
+    }
+  ],
+  "sumarizacao_avaliacao": [
+    {
+      "input": "O tenis e confortavel e bonito, porem o solado descolou apos uma semana. A entrega foi rapida mas a caixa veio rasgada. Consideraria comprar de novo se melhorarem a qualidade.",
+      "output": "- Tenis confortavel e visual agradavel\n- Solado descolou em uma semana (qualidade)\n- Entrega rapida, embalagem danificada"
+    }
+  ]
+}

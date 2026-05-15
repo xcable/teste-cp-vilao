@@ -1,0 +1,53 @@
+{
+  "classificacao_sentimento": [
+    {"input": "Produto excelente, chegou rapido!", "esperado": "POSITIVO"},
+    {"input": "Veio quebrado, pessimo atendimento.", "esperado": "NEGATIVO"},
+    {"input": "Bom preco mas qualidade media.", "esperado": "MISTO"},
+    {"input": "Entrega no prazo, produto conforme anunciado.", "esperado": "NEUTRO"},
+    {"input": "Amei a cor, mas o ziper quebrou no primeiro uso.", "esperado": "MISTO"}
+  ],
+  "extracao_dados": [
+    {
+      "input": "Notebook Dell de R$3500 com pixels mortos na tela.",
+      "esperado": {"produto": "Notebook Dell", "preco": "R$3500", "defeito": "pixels mortos na tela"}
+    },
+    {
+      "input": "Comprei uma cafeteira Nespresso por R$890 e o reservatorio vaza.",
+      "esperado": {"produto": "cafeteira Nespresso", "preco": "R$890", "defeito": "reservatorio vaza"}
+    },
+    {
+      "input": "Fone Sony WH-1000XM5 custou R$1899, bateria dura so 2 horas.",
+      "esperado": {"produto": "Fone Sony WH-1000XM5", "preco": "R$1899", "defeito": "bateria dura so 2 horas"}
+    },
+    {
+      "input": "Mesa gamer por R$1200 chegou com perna torta.",
+      "esperado": {"produto": "Mesa gamer", "preco": "R$1200", "defeito": "perna torta"}
+    },
+    {
+      "input": "Camiseta Nike R$149, tecido fino demais para o preco.",
+      "esperado": {"produto": "Camiseta Nike", "preco": "R$149", "defeito": "tecido fino demais para o preco"}
+    }
+  ],
+  "sumarizacao_avaliacao": [
+    {
+      "input": "Comprei o aspirador RoboClean 3000 por R$899. Aspira bem carpetes e madeira, mas esbarra nos moveis e a bateria nao completa a casa toda. App funciona, porem travou duas vezes. Suporte respondeu em 24h. No geral util, mas esperava mais autonomia.",
+      "esperado": "aspirador; boa succao; bateria curta; app instavel; suporte ok"
+    },
+    {
+      "input": "Relogio Garmin Forerunner 255: GPS preciso, pulseira confortavel, mas o visor riscou facil. Sincroniza com Strava sem problemas. Preco alto para o que oferece em relacao a concorrentes chineses.",
+      "esperado": "GPS preciso; visor fragil; sync ok; preco alto"
+    },
+    {
+      "input": "Kit panelas Tramontina antiaderente: nao gruda, facil de limpar, cabos esquentam no fogao a gas. Veio completo com 5 pecas. Embalagem ecologica. Recomendo para quem cozinha pouco.",
+      "esperado": "antiaderente; cabos esquentam; kit completo; recomendado uso leve"
+    },
+    {
+      "input": "Cadeira ergonomica FlexChair Pro: lombar ajustavel, tecido respiravel, montagem demorou 2 horas. Rodinhas fazem barulho no piso laminado. Valeu o investimento para home office.",
+      "esperado": "ergonomica; montagem longa; rodinhas ruidosas; bom home office"
+    },
+    {
+      "input": "Livro entregue com capa amassada e paginas faltando no meio. Comprei pela promocao de R$29.90. Vendedor ofereceu reembolso parcial. Experiencia frustrante.",
+      "esperado": "produto danificado; paginas faltando; reembolso parcial; frustrante"
+    }
+  ]
+}
