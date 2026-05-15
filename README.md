@@ -15,7 +15,7 @@ E-commerce — analise de avaliacoes de produtos (classificacao de sentimento, e
 ## Instalacao
 
 ```bash
-cd checkpoint-2-PromptToolkit
+cd teste-cp-vilao
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ O sistema ira:
 ## Estrutura
 
 ```
-prompt-toolkit/
+teste-cp-vilao/
 ├── main.py              # Ponto de entrada
 ├── src/
 │   ├── llm_client.py    # Conexao Ollama
