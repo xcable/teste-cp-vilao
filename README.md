@@ -10,7 +10,7 @@ E-commerce — analise de avaliacoes de produtos (classificacao de sentimento, e
 
 - Python 3.10+
 - [Ollama](https://ollama.com/) instalado e rodando localmente
-- Modelo `gpt-oss:120b` (ou outro configurado no `.env`)
+- Modelo `llama3.2:latest` (ou outro configurado no `.env`)
 
 ## Instalacao
 
@@ -25,13 +25,13 @@ Edite o arquivo `.env` se necessario:
 
 ```
 OLLAMA_HOST=http://localhost:11434
-OLLAMA_MODEL=gpt-oss:120b
+OLLAMA_MODEL=llama3.2:latest
 ```
 
 Certifique-se de que o Ollama esta rodando e o modelo foi baixado:
 
 ```bash
-ollama pull gpt-oss:120b
+ollama pull llama3.2:latest
 ollama serve
 ```
 
