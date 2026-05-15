@@ -69,7 +69,3 @@ teste-cp-vilao/
 ├── prompts/
 └── output/
 ```
-
-## Documentacao
-
-O PDF do grupo deve ser colocado em `docs/CP02_NomeDoGrupo.pdf`.
